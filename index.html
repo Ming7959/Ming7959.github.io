@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="daybreak">
+    <meta name="keywords" content="java">
     <meta name="description" content="积雨辋川的成长之路">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -546,7 +546,10 @@
     
     <div class="row">
 		
-			<iframe src='//player.bilibili.com/player.html?aid=68834103&bvid=BV1mJ411M7Pb&cid=119296321&page=1' scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" align="middle"  style="height: 950px;" width="100%"> </iframe>
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                     style="height: 550px;"></div>
+        </div>
 		
     </div>
 </div>
@@ -563,7 +566,7 @@
             preload: 'auto',
             volume: Number('0.7'),
             video: {
-                url: '',
+                url: 'https://outin-d9452e86397111ecb8ee00163e06123c.oss-cn-shanghai.aliyuncs.com/sv/1cd43620-17d3de707ec/1cd43620-17d3de707ec.mp4?Expires=1637424756&OSSAccessKeyId=LTAIVVfYx6D0HeL2&Signature=2hgvxjLx0y3fUKF%2Bj3E66Ji%2FIyo%3D',
                 pic: '',
                 thumbnails: ''
             }
@@ -697,23 +700,14 @@
     }
 
     
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
 </style>
 <div class="">
     
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
-                   type="playlist"
-                   id="2840063318"
+                   type="song"
+                   id="1313052971"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
